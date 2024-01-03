@@ -14,7 +14,7 @@ app.use(cors());
 app.use('/api', notesRoutes);
 
 const CONNECTION_URL = 'mongodb+srv://ayushmehrotra525:Ayush1234@speerbackend.ss1er3y.mongodb.net/'
-mongoose.connect(CONNECTION_URL ,{useNewUrlParser: true , useUnifiedTopology : true})
+mongoose.connect(CONNECTION_URL)
     .then(()=>app.listen(PORT , () => console.log(`Server running on post : http://localhost:${PORT}`)))
     .catch((error)=> console.log(error.message));
 
