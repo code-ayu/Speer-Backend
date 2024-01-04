@@ -17,3 +17,8 @@ npm install jest supertest @types/jest @types/supertest --save-dev
 ## Commands to run or start the project 
 
 node index.js
+We can also use nodemon to run the project more effiectively by installing NODEMON
+
+npm nodemon 
+
+and then -> nodemon index.js
