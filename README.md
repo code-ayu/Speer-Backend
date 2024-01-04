@@ -6,7 +6,7 @@ NodeJs
 ExpressJs
 Postman (For test of APIs)
 
-#### Packeages to install  before running 
+#### Packages to install  before running 
 
 npm init -y
 npm install mongoose cors express
@@ -17,7 +17,7 @@ npm install jest supertest @types/jest @types/supertest --save-dev
 ## Commands to run or start the project 
 
 node index.js
-We can also use nodemon to run the project more effiectively by installing NODEMON
+We can also use nodemon to run the project more effectively by installing NODEMON
 
 npm nodemon 
 
