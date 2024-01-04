@@ -15,5 +15,7 @@ const notesSchema = mongoose.Schema({
     }
 });
 
+notesSchema.index({ notes: 'text' });
+
 const notesDetails = mongoose.model('notesDetails' , notesSchema);
 export default notesDetails;

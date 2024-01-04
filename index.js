@@ -1,7 +1,7 @@
 import express from "express";
 import bodyParser from "body-parser";
 import mongoose from 'mongoose';
-import cors from 'cors';
+import cors from "cors";
 
 import notesRoutes from './routes/notes.js';
 
@@ -17,6 +17,8 @@ const CONNECTION_URL = 'mongodb+srv://ayushmehrotra525:Ayush1234@speerbackend.ss
 mongoose.connect(CONNECTION_URL)
     .then(()=>app.listen(PORT , () => console.log(`Server running on post : http://localhost:${PORT}`)))
     .catch((error)=> console.log(error.message));
+
+
 
 
 
